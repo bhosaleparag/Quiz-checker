@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+		<h1 class="logo"><a href="index.html">Flexbox</a></h1>
+      <ul class="main-nav" >
+          <li><a href="python.html">python</a></li>
+          <li><a href="cpp.html">c++</a></li>
+          <li><a href="#">javaScript</a></li>
+          <li><a href="css.html">css</a></li>
+      </ul>
+	</header> 
+  <div id="alert">
+    <div class="alert-title">Congratulations!!</div>
+    <div>you got<p></p>correct </div>
+  </div>
+  <form id="quiz-form">
+    <ol id="quiz-box">
+      <!-- que1 -->
+      <li class="question-item">
+        <div>What does this code return? (0 || '' || false || "Hi")</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                0
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="true">
+                "Hi"
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                false
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                ''
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que2 -->
+      <li class="question-item">
+        <div>What is it called when a function calls itself?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Inception
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Self-Referential
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="true">
+                Recursion
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Who Cares
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que3 -->
+      <li class="question-item">
+        <div>Javascript is an _______ language?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="true">
+                Object-Oriented
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                Object-Based
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                Procedural 
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                None of above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que4 -->
+      <li class="question-item">
+        <div>How can a datatype be declared to be a constant type?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="true">
+                Const
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                constant
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                let 
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                var
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que5 -->
+      <li class="question-item">
+        <div>How do you access the value of the data-count data attribute in JavaScript?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="true">
+                element.dataset.count
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                element.dataAttribute.count
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                element.dataset.dataCount
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                element.dataCount
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+    <button type="submit" id="btn">submit</button>
+  </form>
+</body>
+</html>

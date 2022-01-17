@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+	<h1 class="logo"><a href="index.html">Flexbox</a></h1>
+      <ul class="main-nav" >
+          <li><a href="python.html">python</a></li>
+          <li><a href="#">c++</a></li>
+          <li><a href="index.html">javaScript</a></li>
+          <li><a href="css.html">css</a></li>
+      </ul>
+	</header> 
+  <div id="alert">
+    <div class="alert-title">Congratulations!!</div>
+    <div>you got<p></p>correct </div>
+  </div>
+  <form id="quiz-form">
+    <ol id="quiz-box">
+      <!-- que1 -->
+      <li class="question-item">
+        <div>Which of the following is the correct identifier?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                $var_name
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="true">
+                VAR_123
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                varname@
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                None of the above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que2 -->
+      <li class="question-item">
+        <div> Which of the following is the original creator of the C++ language?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Dennis Ritchie
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Ken Thompson
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="true">
+                Bjarne Stroustrup
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Brian Kernighan
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que3 -->
+      <li class="question-item">
+        <div>The programming language that has the ability to create new data types is called___.</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                Overloaded
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                Encapsulated
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                Reprehensible 
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="true">
+                Extensible
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que4 -->
+      <li class="question-item">
+        <div>The C++ language is ______ object-oriented language.</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="true">
+                Semi Object-oriented or Partial Object-oriented
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                Pure Object oriented
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                Not Object oriented 
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                None of the above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que5 -->
+      <li class="question-item">
+        <div>C++ is a ___ type of language.</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                High-level Language
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                Low-level language
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="true">
+                Middle-level language
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                None of the above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+    <button type="submit" id="btn">submit</button>
+  </form>
+</body>
+</html>

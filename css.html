@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+	<h1 class="logo"><a href="index.html">Flexbox</a></h1>
+      <ul class="main-nav" >
+          <li><a href="python.html">python</a></li>
+          <li><a href="cpp.html">c++</a></li>
+          <li><a href="index.html">javaScript</a></li>
+          <li><a href="#">css</a></li>
+      </ul>
+	</header> 
+  <div id="alert">
+    <div class="alert-title">Congratulations!!</div>
+    <div>you got<p></p>correct </div>
+  </div>
+  <form id="quiz-form">
+    <ol id="quiz-box">
+      <!-- que1 -->
+      <li class="question-item">
+        <div>CSS stands for -</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                Cascade style sheets
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                Color and style sheets
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="true">
+                Cascading style sheets
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                None of the above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que2 -->
+      <li class="question-item">
+        <div>The property in CSS used to change the text color of an element is -</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                bgcolor
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="true">
+                color
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                background-color
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                All of above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que3 -->
+      <li class="question-item">
+        <div>The CSS property used to control the element's text size is -</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                text-style
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                text-size
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="true">
+                font-size 
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                None of above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que4 -->
+      <li class="question-item">
+        <div>The HTML attribute used to define the inline styles is -</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="true">
+                style
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                styles
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                class 
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-4" value="false">
+                None of the above
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <!-- que5 -->
+      <li class="question-item">
+        <div> The CSS property used to make the text bold is -</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="true">
+                font-weight : bold
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                weight: bold
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                font: bold
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-5" value="false">
+                text-size: bold
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+    <button type="submit" id="btn">submit</button>
+  </form>
+</body>
+</html>
